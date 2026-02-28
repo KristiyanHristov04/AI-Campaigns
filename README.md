@@ -84,7 +84,13 @@ AI-Campaigns/
    cd backend/AI-Campaigns-Project/AI-Campaigns-Project
    ```
 
-2. Add your Gemini API key to `appsettings.json` or as an environment variable.
+2. Add your Gemini API key as an environment variable in your launchSettings.json file.
+   ```json
+   "environmentVariables": {
+     "ASPNETCORE_ENVIRONMENT": "Development",
+     "GEMINI_API_KEY": "your-api-key"
+   },
+   ```
 
 3. Run the API:
    ```bash
