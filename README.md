@@ -88,7 +88,7 @@ AI-Campaigns/
    ```json
    "environmentVariables": {
      "ASPNETCORE_ENVIRONMENT": "Development",
-     "GEMINI_API_KEY": "your-api-key"
+     "GEMINI_API_KEY": "your-gemini-api-key"
    },
    ```
 
