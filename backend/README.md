@@ -11,12 +11,12 @@ This is the ASP.NET Core backend for the AI Campaigns project.
 
 ### Environment Variables
 
-Before running the project, you must add your Gemini API key to the `environmentVariables` section of each profile in `AI-Campaigns-Project/AI-Campaigns-Project/Properties/launchSettings.json`:
+Before running the project, you must add your Google Gemini API key to the `environmentVariables` section of each profile in `AI-Campaigns-Project/AI-Campaigns-Project/Properties/launchSettings.json`:
 
 ```json
 "environmentVariables": {
   "ASPNETCORE_ENVIRONMENT": "Development",
-  "GEMINI_API_KEY": "your-gemini-api-key-here"
+  "GOOGLE_API_KEY": "your-api-key-here"
 }
 ```
 
